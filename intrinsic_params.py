@@ -45,6 +45,6 @@ ret, cam_mtx, dist, _, _ = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[
 
 if ret:
     np.save(savedir+'cam_mtx.npy', cam_mtx)
-    np.save(savedir+'dist.npy', dist)
+    np.save(savedir+'dist_coeff.npy', dist)
 
 print("Calibration ended")
