@@ -52,7 +52,6 @@ void loop() {
         gripper.write(180, 60, false);
         elbow.write(45, 20, false);
         gripper.write(90, 60, false);
-        process = true;
 
         Serial.println("Angles updated!");
       } else {
