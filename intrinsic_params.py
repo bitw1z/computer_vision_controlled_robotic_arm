@@ -14,7 +14,7 @@ objp[:,:2] = np.mgrid[0:6,0:8].T.reshape(-1,2)
  
 # arrays to store object points and image points from all the images.
 objpoints = [] # 3d point in real world space
-imgpoints = [] # 2d points in image plane.
+imgpoints = [] # 2d points in image plane
  
 images = glob.glob('*.jpg')
  
