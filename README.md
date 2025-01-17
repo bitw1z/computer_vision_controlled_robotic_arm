@@ -51,7 +51,7 @@ cd robotic-arm-computer-vision
 pip install numpy opencv-python pyserial sympy
 ```
 - **Arduino**:
-- 1. Open the Arduino IDE and install the ESP32 library by Espressif from the Library Manager.
+  1. Open the Arduino IDE and install the ESP32 library by Espressif from the Library Manager.
   2. Download the VarSpeedServo library from [github](https://github.com/netlabtoolkit/VarSpeedServo) as a ZIP file.
   3. Upload the ZIP file to the Arduino IDE using Sketch > Include Library > Add .ZIP Library
 
