@@ -3,7 +3,7 @@
 This project enables a robotic arm to autonomously manipulate objects using ESP32 camera for real-time object detection and Arduino Uno for servo motor controls. 
 
 ## Features
-- **Joint Angles Calculation**: Computes joint angles using forward and inverse kinematics. [Explore more]([https://bitwiz03.medium.com/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf](https://bitwiz03.medium.com/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf)).
+- **Joint Angles Calculation**: Computes joint angles using forward and inverse kinematics. [Explore more]([https://bitwiz03.medium.com/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf])
 - **Iterative Design**: Refines the robotic arm prototype to ensure stabiltiy and balance of structure. [Explore more](https://bitwiz03.medium.com/evaluating-and-enhancing-my-3-dof-robotic-arm-hardware-software-0fe39215a9fd).
 - **Serial Communication and Servo Motor Control**: Enables efficient data exchange between Python and Arduino. Controls servo motors to move the robotic arm smoothly. [Explore more](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b).
 - **Real-Time Object detection**: Leverages pretrained YOLOv3 weights for object detection. [Explore more](https://bitwiz03.medium.com/adding-vision-to-robotic-arm-setting-up-the-esp32-camera-for-object-detection-d72eb6692d51).
