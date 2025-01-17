@@ -16,4 +16,4 @@ This project enables a robotic arm to autonomously manipulate objects using ESP3
 - **3-DoF Robotic Arm**: A custom-built prototype assembled using upcycled materials to promote sustainability. 
 
 ### Image of Hardware Connections 
-![Connection Setup Photo](hardware_connections.jpeg)
+![Connection Setup Photo](hardware_connections.jpg)
