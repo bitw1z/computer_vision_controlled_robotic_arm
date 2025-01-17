@@ -37,4 +37,16 @@ The ESP32 camera is configured using the **CameraWebServer** example code from t
 ### **5. Servo Motor Control 
 - **VarSpeedServoLibrary**: Leverages the VarSpeedServo library to control the speed of servo motors, ensuring smooth movement and maintaining strcutural stability. 
 
+## Installation
+### **1. Clone the Repository**
+'''bash
+git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.git
+cd robotic-arm-computer-vision
+
+### **2. Install Dependencies**
+- Python: Install the necessary Python libraries using pip:
+'''bash
+pip install opencv-python numpy 
+
+
 
