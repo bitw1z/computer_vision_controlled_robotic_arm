@@ -67,7 +67,7 @@ python main.py
 ```
 ## Results
 - Stable Strcuture, Smooth Movements, Object Detection through ESP32 Camera, and Precise Coordinate Conversion
-- [Watch the performance video on Youtube!](https://youtu.be/zEXQ5RJERkk?si=gVbwF1e-x39rUXki) 
+- [![Watch the video](https://img.youtube.com/vi/zEXQ5RJERkk/maxresdefault.jpg)](https://youtu.be/zEXQ5RJERkk?si=OxOXtrxkvkzXIVPO)
 
 ## Future Improvements 
 
