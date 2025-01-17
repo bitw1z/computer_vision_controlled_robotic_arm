@@ -3,12 +3,12 @@
 This project enables a robotic arm to autonomously manipulate objects using ESP32 camera for real-time object detection and Arduino Uno for servo motor controls. 
 
 ## Features
-- **Joint Angle Calculation**: Computes joint angles using forward and inverse kinematics. [Explore more](https://bitwiz03.medium.comå/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf).
-- **Serial Communicatio and Servo Motor Control**: Enables efficient data exchange between Python and Arduino. Controls servo motors to move the robotic arm smoothly [Explore more](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b).
+- **Joint Angles Calculation**: Computes joint angles using forward and inverse kinematics. [Explore more](https://bitwiz03.medium.comå/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf).
 - **Iterative Design**: Refines the robotic arm prototype to ensure stabiltiy and balance of structure. [Explore more](https://bitwiz03.medium.com/evaluating-and-enhancing-my-3-dof-robotic-arm-hardware-software-0fe39215a9fd).
-- **ESP Camera Calibration**:  calibrates the ESP32 camera to obtain intrisic and extrinsic parameters and therefore converts 2D pixel coordinates to 3D world coordinates. [Explore more](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f).
+- **Serial Communication and Servo Motor Control**: Enables efficient data exchange between Python and Arduino. Controls servo motors to move the robotic arm smoothly. [Explore more](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b).
 - **Real-Time Object detection**: Leverages pretrained YOLOv3 weights for object detection. [Explore more](https://bitwiz03.medium.com/adding-vision-to-robotic-arm-setting-up-the-esp32-camera-for-object-detection-d72eb6692d51).
-  
+- **ESP32 Camera Calibration**:  calibrates the ESP32 camera to obtain intrisic and extrinsic parameters and therefore converts 2D pixel coordinates to 3D world coordinates. [Explore more](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f).
+
 ## Hardware Setup
 - **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
 - **Arduino Uno**: Serves as the controller for the servo motors, receiving joint angles data from Python and sending status updates back to Python. 
