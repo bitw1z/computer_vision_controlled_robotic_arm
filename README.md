@@ -3,11 +3,11 @@
 This project enables a robotic arm to autonomously manipulate objects using ESP32 camera for real-time object detection and Arduino Uno for servo motor controls. 
 
 ## Features
-- Calculation of joint angles using inverse and forward kinematics
-- Serial communication between Python and Arduino for data exchange
-- Control of servo motors to move the robotic arm
-- Calibration of the ESP32 camera for accurate 2D-to-3D coordinate conversion
-- Real-time object detection using pretrained YOLOv3 weights
+- Calculation of joint angles using inverse and forward kinematics (more detail [here)](https://bitwiz03.medium.com/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf)!) 
+- Serial communication between Python and Arduino for data exchange (check out my [here!)](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b)
+- Control of servo motors to move the robotic arm 
+- Calibration of the ESP32 camera for accurate 2D-to-3D coordinate conversion (Additional insights [here)](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f)
+- Real-time object detection using pretrained YOLOv3 weights (explore more details [here!)](https://bitwiz03.medium.com/adding-vision-to-robotic-arm-setting-up-the-esp32-camera-for-object-detection-d72eb6692d51) 
   
 ## Hardware Setup
 - **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
@@ -73,12 +73,10 @@ python main.py
 - For more details, feel free to check out my [blog post!](https://bitwiz03.medium.com/turning-ideas-into-reality-project-completion-and-new-frontier-43c1b88f5ec7)!
 
 ## Future Improvements 
-- A limitation of current 3-DoF robotic arm is that the gripper has a fixed orientation, which makes it challegning to handle variety of objects. To addre this, increasing the degrees of freedom, one at a time, up to siz, will be a key future improvement to make to the arm more versatile and adaptable.
+- Incrementally adding degrees of freedom, up to six, will enable precise control of the end effector's orientation, thereby enhancing manipulation capabilities.
+- Using pretrained YOLO weights limits the range of detectable objects, and the performance of object detection varies depending on the lighting conditions. To address this, standardizing the lighting conditions and and collecting images of specific objects for manipulation will improve accuracy and provide more freedom of object choices. 
+- The robotic arm peforms repeated motion due to delayed responsiveness in the object detection algorithm. To mitigate this, I can utilize tiny YOLO weights, optimize input resolution, and implement asychronous processing.
   
-- Depending on the lighting conditions, the success of YOLO object detection varies. This challenge may stem from using pretrained YOLO weights instead of training custom-trained weights. Moreover, the limitation of only being able to detect objects from the COCO class names restricted my ability to manipulate a wider variety of objects. A better approach would be to standardize the lighting condtions and collect images of the specific objects I want to manipulate. 
-
--   As demonstrated in the performance video, the robotic arm occasionally moves to the same position twice, even after successfully manipulating the object. This issues arises from the d
-
 ## Acknolwedgements
 
 
