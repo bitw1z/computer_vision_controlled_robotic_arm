@@ -44,7 +44,7 @@ git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.gi
 cd computer_vision_controlled_robotic_arm
 ```
 ### **2. Install Dependencies**
-- **Python**: Install the necessary Python libraries using pip:
+- **Python**: Install the necessary Python libraries using pip
 ```bash
 pip install numpy opencv-python pyserial sympy
 ```
