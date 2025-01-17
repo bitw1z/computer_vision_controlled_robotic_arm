@@ -34,19 +34,23 @@ The ESP32 camera is configured using the **CameraWebServer** example code from t
 - **Python-Arduino Communication**: The Python script sends joint angles data to the Arduino, which interprets the data and moves the servo motors accordingly. 
 - **Synchronization**: The Arduino updates the status after completing the servo motors movements. Communication is synchronized using a **handshaking system**, ensuring smooth data exchange.
 
-### **5. Servo Motor Control 
+### **5. Servo Motor Control**
 - **VarSpeedServoLibrary**: Leverages the VarSpeedServo library to control the speed of servo motors, ensuring smooth movement and maintaining strcutural stability. 
 
-## Installation
-### **1. Clone the Repository**
-'''bash
-git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.git
-cd robotic-arm-computer-vision
 
+
+## Installation  
+### **1. Clone the Repository**  
+```bash
+git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.gi
+cd robotic-arm-computer-vision
+```
 ### **2. Install Dependencies**
 - Python: Install the necessary Python libraries using pip:
-'''bash
-pip install opencv-python numpy 
+```bash
+pip install opencv-python numpy
+```
+
 
 
 
