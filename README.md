@@ -42,14 +42,15 @@ The ESP32 camera is configured using the **CameraWebServer** example code from t
 ## Installation  
 ### **1. Clone the Repository**  
 ```bash
-git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.gi
+git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.git
 cd robotic-arm-computer-vision
 ```
 ### **2. Install Dependencies**
-- Python: Install the necessary Python libraries using pip:
+- **Python**: Install the necessary Python libraries using pip:
 ```bash
-pip install opencv-python numpy
+pip install numpy opencv-python pyserial sympy
 ```
+- **Arduino**: Open the Arduino IDE and install ESP32 library by espressif from the Library Manager. Download VarSpeedServo zip files on [github](https://github.com/netlabtoolkit/VarSpeedServo) and upload on the Arduino IDE. 
 
 
 
