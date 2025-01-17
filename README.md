@@ -66,11 +66,11 @@ pip install numpy opencv-python pyserial sympy
 python main.py
 ```
 ## Results
+Watch the [performance video](https://youtu.be/zEXQ5RJERkk?si=U1XYCbymmyTSmgoa) on YouTube! For more detials, feel free to check out my [blog post!](https://bitwiz03.medium.com/turning-ideas-into-reality-project-completion-and-new-frontier-43c1b88f5ec7)
 - Stable structure and smooth movements
 - Object detection through ESP32 camera
 - Precise 2D-to-3D coordinate conversion
-- [Watch the performance video on YouTube!](https://youtu.be/zEXQ5RJERkk?si=U1XYCbymmyTSmgoa)
-- For more details, feel free to check out my [blog post!](https://bitwiz03.medium.com/turning-ideas-into-reality-project-completion-and-new-frontier-43c1b88f5ec7)!
+
 
 ## Future Improvements 
 - Incrementally adding degrees of freedom, up to six, will enable precise control of the end effector's orientation, thereby enhancing manipulation capabilities.
