@@ -37,8 +37,6 @@ The ESP32 camera is configured using the **CameraWebServer** example code from t
 ### **5. Servo Motor Control**
 - **VarSpeedServoLibrary**: Leverages the VarSpeedServo library to control the speed of servo motors, ensuring smooth movement and maintaining strcutural stability. 
 
-
-
 ## Installation  
 ### **1. Clone the Repository**  
 ```bash
@@ -67,7 +65,13 @@ pip install numpy opencv-python pyserial sympy
 ```bash
 python main.py
 ```
+## Results
+- Stable Strcuture, Smooth Movements, Object Detection through ESP32 Camera, and Precise Coordinate Conversion
+- [Watch the performance video on Youtube!](https://youtu.be/zEXQ5RJERkk?si=gVbwF1e-x39rUXki) 
 
+## Future Improvements 
+
+## Acknolwedgements
 
 
 
