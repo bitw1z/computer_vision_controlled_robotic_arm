@@ -41,7 +41,7 @@ The ESP32 camera is configured using the **CameraWebServer** example code from t
 ### **1. Clone the Repository**  
 ```bash
 git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.git
-cd robotic-arm-computer-vision
+cd computer_vision_controlled_robotic_arm
 ```
 ### **2. Install Dependencies**
 - **Python**: Install the necessary Python libraries using pip:
