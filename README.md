@@ -7,7 +7,7 @@ This project enables a 3-DoF robotic arm built by upcycled materials to autonomo
 - **Iterative Design**: Refines the robotic arm prototype to ensure stabiltiy and balance of structure. [Explore more](https://bitwiz03.medium.com/evaluating-and-enhancing-my-3-dof-robotic-arm-hardware-software-0fe39215a9fd).
 - **Serial Communication and Servo Motor Control**: Enables efficient data exchange between Python and Arduino. Controls servo motors to move the robotic arm smoothly. [Explore more](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b).
 - **Real-Time Object detection**: Leverages pretrained YOLOv3 weights for object detection. [Explore more](https://bitwiz03.medium.com/adding-vision-to-robotic-arm-setting-up-the-esp32-camera-for-object-detection-d72eb6692d51).
-- **ESP32 Camera Calibration**:  calibrates the ESP32 camera to obtain intrisic and extrinsic parameters and therefore converts 2D pixel coordinates to 3D world coordinates. [Explore more](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f).
+- **ESP32 Camera Calibration**:  Calibrates the ESP32 camera to obtain intrisic and extrinsic parameters and therefore converts 2D pixel coordinates to 3D world coordinates. [Explore more](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f).
 
 ## Hardware Setup
 - **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
