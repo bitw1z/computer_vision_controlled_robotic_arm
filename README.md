@@ -78,7 +78,10 @@ Watch the [performance video](https://youtu.be/zEXQ5RJERkk?si=U1XYCbymmyTSmgoa) 
 - The robotic arm peforms repeated motion due to delayed responsiveness in the object detection algorithm. To mitigate this, I can utilize tiny YOLO weights, optimize input resolution, and implement asychronous processing.
   
 ## Acknolwedgements
-
-
+- Numpy library for forward and inverse kinematics of robotic arm.
+- Arduino and the VarSpeedServo library for servo control.
+- The ESP32 Camera library and CameraWebServer example code.
+- YOLOv3 weights and COCO.names for object detection.
+- OpenCV library for intrinsic and extrinsic parameters extraction.
 
 
