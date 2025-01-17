@@ -3,11 +3,11 @@
 This project enables a robotic arm to autonomously manipulate objects using ESP32 camera for real-time object detection and Arduino Uno for servo motor controls. 
 
 ## Features
-- **Joint Angle Calculation**: Computes joint angles using forward and inverse kinematics. [Read more here](https://bitwiz03.medium.comå/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf)!) 
-- **Serial Communicatio and Servo Motor Controln**: Enables efficient data exchange between Python and Arduino. Controls servo motors to move the robotic arm smoothly [Read more here](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b)
-- **Iterative Design**: Iteratively refine the robotic arm prototype to ensure stabiltiy and balance of whole structure. [Read more here](https://bitwiz03.medium.com/evaluating-and-enhancing-my-3-dof-robotic-arm-hardware-software-0fe39215a9fd)
-- **ESP Camera Calibration**:  calibrates the ESP32 camera for accurate 2D-to-3D coordinate conversion [Read more here](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f)
-- **Real-Time Object detection**: Leverages pretrained YOLOv3 weights for object detection.[Read more here](https://bitwiz03.medium.com/adding-vision-to-robotic-arm-setting-up-the-esp32-camera-for-object-detection-d72eb6692d51)
+- **Joint Angle Calculation**: Computes joint angles using forward and inverse kinematics. [Explore more](https://bitwiz03.medium.comå/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf).
+- **Serial Communicatio and Servo Motor Controln**: Enables efficient data exchange between Python and Arduino. Controls servo motors to move the robotic arm smoothly [Explore more](https://bitwiz03.medium.com/fine-tuning-control-systems-optimizing-motor-algorithms-and-communication-protocols-for-robotic-a84301adf23b).
+- **Iterative Design**: Iteratively refine the robotic arm prototype to ensure stabiltiy and balance of whole structure. [Explore more](https://bitwiz03.medium.com/evaluating-and-enhancing-my-3-dof-robotic-arm-hardware-software-0fe39215a9fd).
+- **ESP Camera Calibration**:  calibrates the ESP32 camera for accurate 2D-to-3D coordinate conversion [Explore more](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f).
+- **Real-Time Object detection**: Leverages pretrained YOLOv3 weights for object detection.[Explore more](https://bitwiz03.medium.com/adding-vision-to-robotic-arm-setting-up-the-esp32-camera-for-object-detection-d72eb6692d51)
   
 ## Hardware Setup
 - **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
