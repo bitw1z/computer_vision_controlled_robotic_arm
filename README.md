@@ -60,7 +60,8 @@ pip install numpy opencv-python pyserial sympy
 ### **4. Run the Python Script**
 - Modify the forward_kinematics code to include your robotic arm's modified DH parameters.
 - Update the serial_communication code with your local Arduino port.
-- Change the video_streaming, pixel_coordinates and object_detection code to match the IP address of your ESP32 camera. 
+- Try video streaming by matching the IP address of your ESP32 camera in video streaming code.
+- Change IP address to your ESP32 camera in pixel coordinates and object detection code as well. 
 - Run the scipt to begin object detection, calculate joint angles, and control the robotic arm:
 ```bash
 python main.py
