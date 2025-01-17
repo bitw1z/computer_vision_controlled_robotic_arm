@@ -10,10 +10,10 @@ This project enables a 3-DoF robotic arm built by upcycled materials to autonomo
 - **ESP32 Camera Calibration**:  Calibrates the ESP32 camera to obtain intrisic and extrinsic parameters and therefore converts 2D pixel coordinates to 3D world coordinates. [Explore more](https://bitwiz03.medium.com/bridging-dimensions-camera-calibration-for-2d-to-3d-mapping-3d2b0a060a6f).
 
 ## Hardware Setup
-- **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
+- **3-DoF Robotic Arm**: A custom-built prototype assembled using upcycled materials to promote sustainability.
 - **Arduino Uno**: Serves as the controller for the servo motors, receiving joint angles data from Python and sending status updates back to Python. 
 - **Servo Motors**: Control the movements of the robotic arm based on the computed joint angles. 
-- **3-DoF Robotic Arm**: A custom-built prototype assembled using upcycled materials to promote sustainability. 
+- **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
 
 ### Image of Hardware Connections 
 ![Connection Setup Photo](hardware_connections.jpg)
