@@ -44,14 +44,14 @@ git clone https://github.com/bitwizd03/computer_vision_controlled_robotic_arm.gi
 cd computer_vision_controlled_robotic_arm
 ```
 ### **2. Install Dependencies**
-- **Python**: Install the necessary Python libraries using pip
+- **Python**: Install the necessary Python libraries using pip.
 ```bash
 pip install numpy opencv-python pyserial sympy
 ```
 - **Arduino**:
   1. Open the Arduino IDE and install the ESP32 library by Espressif from the Library Manager.
   2. Download the VarSpeedServo library from [github](https://github.com/netlabtoolkit/VarSpeedServo) as a ZIP file.
-  3. Upload the ZIP file to the Arduino IDE using Sketch > Include Library > Add .ZIP Library
+  3. Upload the ZIP file to the Arduino IDE using Sketch > Include Library > Add .ZIP Library.
 
 ### **3. ESP32 Camera Setup** 
 - Open the CameraWebServer example code in the Arduino IDE and update the code with your local Wi-Fi network name and password.
