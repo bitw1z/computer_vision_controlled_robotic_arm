@@ -66,6 +66,7 @@ pip install numpy opencv-python pyserial sympy
 python main.py
 ```
 ## Results
+Stable Structure, Smooth Movements, Object Detection trhough ESP32 Camera, and Precise 2D-to-3D Coordinate Conversion
 [![Watch the video](https://img.youtube.com/vi/zEXQ5RJERkk/maxresdefault.jpg)](https://youtu.be/zEXQ5RJERkk?si=OxOXtrxkvkzXIVPO)
 
 ## Future Improvements 
