@@ -81,7 +81,7 @@ python main.py
 - Numpy library for forward and inverse kinematics of robotic arm.
 - Arduino and the VarSpeedServo library for servo control.
 - The ESP32 Camera library and CameraWebServer example code.
-- YOLOv3 weights and COCO.names for object detection.
+- YOLOv3 weights and coco.names for object detection.
 - OpenCV library for intrinsic and extrinsic parameters extraction.
 
 
