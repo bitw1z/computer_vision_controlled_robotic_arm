@@ -69,8 +69,8 @@ python main.py
 - Stable structure and smooth movements
 - Object detection through ESP32 camera
 - Precise 2D-to-3D coordinate conversion
-
-[![Watch the video](https://img.youtube.com/vi/zEXQ5RJERkk/maxresdefault.jpg)](https://youtu.be/zEXQ5RJERkk?si=OxOXtrxkvkzXIVPO)
+- [Watch the performance video on YouTube!] (https://youtu.be/zEXQ5RJERkk?si=U1XYCbymmyTSmgoa)
+  
 
 ## Future Improvements 
 
