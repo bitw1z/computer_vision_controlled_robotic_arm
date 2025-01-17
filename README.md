@@ -56,13 +56,14 @@ pip install numpy opencv-python pyserial sympy
   3. Upload the ZIP file to the Arduino IDE using Sketch > Include Library > Add .ZIP Library
 
 ## **3.ESP32 Camera Setup** 
-- Open the CameraWebServer example code in the Arduino IDE and write local Wi-Fi network name and passwords for proper connection.
+- Open the CameraWebServer example code in the Arduino IDE and update the code with your local Wi-Fi network name and password.
+- For detailed settings and connections, refer to this [video tutorial](https://www.youtube.com/watch?v=7-3piBHV1W0)! 
 
 ## **4.Run the Python Script**
-- Modify the Python script to substitute your robotic arm DH parameters on forward kinematics code, 
-
-  match your camera's IP address and Arduino connection
-- Run the main scipt to start object detection ,calculate joint angles, and control the robotic arm
+- Modify the forward_kinematics code to include your robotic arm's modified DH parameters 
+- Update the serial_communication code with your local Arduino port
+- Change the video_streaming and object_detection code to match the IP address of your ESP32 camera. 
+- Run the scipt to begin object detection, calculate joint angles, and control the robotic arm:
 ```bash
 python main.py
 ```
