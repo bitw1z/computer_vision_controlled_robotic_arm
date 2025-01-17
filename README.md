@@ -74,7 +74,7 @@ python main.py
 
 ## Future Improvements 
 - Incrementally adding degrees of freedom, up to six, will allow precise control of the end effector's orientation, thereby enhancing manipulation capabilities. 
-- The use of pretrained YOLO weights limits the range of detectable objects and impacts the performance due to varying lighting conditions. To improve this, standardizing the lighting conditions and collecting images of specific objects for manipulation will be effective. 
+- The use of pretrained YOLO weights limits the range of detectable objects and impacts the performance depending on lighting conditions. To improve this, standardizing the lighting conditions and collecting images of specific objects for manipulation will be effective. 
 - Object Detection responsiveness will be improved by reducing the number of frames to be considered, utilizing tiny YOLO wieghts, optimizing input resolution, and implementing asynchronous processing. 
 
 ## Acknolwedgements
