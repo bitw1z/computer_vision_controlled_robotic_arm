@@ -50,7 +50,23 @@ cd robotic-arm-computer-vision
 ```bash
 pip install numpy opencv-python pyserial sympy
 ```
-- **Arduino**: Open the Arduino IDE and install ESP32 library by espressif from the Library Manager. Download VarSpeedServo zip files on [github](https://github.com/netlabtoolkit/VarSpeedServo) and upload on the Arduino IDE. 
+- **Arduino**:
+- 1. Open the Arduino IDE and install the ESP32 library by Espressif from the Library Manager.
+  2. Download the VarSpeedServo library from [github](https://github.com/netlabtoolkit/VarSpeedServo) as a ZIP file.
+  3. Upload the ZIP file to the Arduino IDE using Sketch > Include Library > Add .ZIP Library
+
+## **3.ESP32 Camera Setup** 
+- Open the CameraWebServer example code in the Arduino IDE and write local Wi-Fi network name and passwords for proper connection.
+
+## **4.Run the Python Script**
+- Modify the Python script to substitute your robotic arm DH parameters on forward kinematics code, 
+
+  match your camera's IP address and Arduino connection
+- Run the main scipt to start object detection ,calculate joint angles, and control the robotic arm
+```bash
+python main.py
+```
+
 
 
 
