@@ -58,8 +58,8 @@ pip install numpy opencv-python pyserial sympy
 - For detailed settings and connections, refer to this [video tutorial](https://www.youtube.com/watch?v=7-3piBHV1W0)! 
 
 ### **4. Run the Python Script**
-- Modify the forward_kinematics code to include your robotic arm's modified DH parameters 
-- Update the serial_communication code with your local Arduino port
+- Modify the forward_kinematics code to include your robotic arm's modified DH parameters.
+- Update the serial_communication code with your local Arduino port.
 - Change the video_streaming, pixel_coordinates and object_detection code to match the IP address of your ESP32 camera. 
 - Run the scipt to begin object detection, calculate joint angles, and control the robotic arm:
 ```bash
