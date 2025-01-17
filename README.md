@@ -26,11 +26,11 @@ The ESP32 camera is configured using the **CameraWebServer** example code from t
 - **Pretrained YOLOv3 Weights**: Utilizes pretrained YOLOv3 weights and COCO classes for object detection.
 - **Bounding Box and Non-Maximum Suprression**: After detecting object, redundant boxes are removed by NMS, and the most optimal bounding box is drawn around the identified object in the camera feed.
 
-### **3.Kinematics**
+### **3. Kinematics**
 - **Inverse Kinematics**: Applies geometric approach to calculates the joint angles required for the robotic arm to reach a specific 3D position of the object. 
 - **Forward Kinematics**: Uses modified Denavit-Hartenberg (DH) parameters to verify that the computed joint angles correctly map to the desired 3D coordinates.
 
-### **4.Serial Communication**
+### **4. Serial Communication**
 - **Python-Arduino Communication**: The Python script sends joint angles data to the Arduino, which interprets the data and moves the servo motors accordingly. 
 - **Synchronization**: The Arduino updates the status after completing the servo motors movements. Communication is synchronized using a **handshaking system**, ensuring smooth data exchange.
 
@@ -55,11 +55,11 @@ pip install numpy opencv-python pyserial sympy
   2. Download the VarSpeedServo library from [github](https://github.com/netlabtoolkit/VarSpeedServo) as a ZIP file.
   3. Upload the ZIP file to the Arduino IDE using Sketch > Include Library > Add .ZIP Library
 
-## **3.ESP32 Camera Setup** 
+### **3. ESP32 Camera Setup** 
 - Open the CameraWebServer example code in the Arduino IDE and update the code with your local Wi-Fi network name and password.
 - For detailed settings and connections, refer to this [video tutorial](https://www.youtube.com/watch?v=7-3piBHV1W0)! 
 
-## **4.Run the Python Script**
+### **4. Run the Python Script**
 - Modify the forward_kinematics code to include your robotic arm's modified DH parameters 
 - Update the serial_communication code with your local Arduino port
 - Change the video_streaming and object_detection code to match the IP address of your ESP32 camera. 
