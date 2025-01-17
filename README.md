@@ -73,9 +73,11 @@ python main.py
 - For more details, feel free to check out my [blog post!](https://bitwiz03.medium.com/turning-ideas-into-reality-project-completion-and-new-frontier-43c1b88f5ec7)!
 
 ## Future Improvements 
-- Incrementally adding degrees of freedom, up to six, will allow precise control of the end effector's orientation, thereby enhancing manipulation capabilities. 
-- The use of pretrained YOLO weights limits the range of detectable objects and impacts the performance depending on lighting conditions. To improve this, standardizing the lighting conditions and collecting images of specific objects for manipulation will be effective. 
-- Object Detection responsiveness will be improved by reducing the number of frames to be considered, utilizing tiny YOLO wieghts, optimizing input resolution, and implementing asynchronous processing. 
+- A limitation of current 3-DoF robotic arm is that the gripper has a fixed orientation, which makes it challegning to handle variety of objects. To addre this, increasing the degrees of freedom, one at a time, up to siz, will be a key future improvement to make to the arm more versatile and adaptable.
+  
+- Depending on the lighting conditions, the success of YOLO object detection varies. This challenge may stem from using pretrained YOLO weights instead of training custom-trained weights. Moreover, the limitation of only being able to detect objects from the COCO class names restricted my ability to manipulate a wider variety of objects. A better approach would be to standardize the lighting condtions and collect images of the specific objects I want to manipulate. 
+
+-   As demonstrated in the performance video, the robotic arm occasionally moves to the same position twice, even after successfully manipulating the object. This issues arises from the d
 
 ## Acknolwedgements
 
