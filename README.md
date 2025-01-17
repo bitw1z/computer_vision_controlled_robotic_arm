@@ -23,15 +23,15 @@ This project enables a robotic arm to autonomously manipulate objects using ESP3
 The ESP32 camera is configured using the **CameraWebServer** example code from the ESP32 library, enabling video streaming at particular IP address.
 
 ### **2. Object Detection with YOLOv3**
-- **Pretrained YOLOv3 Weights**: Utilizes pretrained YOLOv3 weights and COCO classes for real-time object detection.
+- **Pretrained YOLOv3 Weights**: Utilizes pretrained YOLOv3 weights and COCO classes for object detection.
 - **Bounding Box and Non-Maximum Suprression**: After detecting object, redundant boxes are removed by NMS, and the most optimal bounding box is drawn around the identified object in the camera feed.
 
 ### **3.Kinematics**
-- **Inverse Kinematics**: Calculates the joint angles required for the robotic arm to reach a specific 3D position of the object. 
-- **Forward Kinematics**: Uses modified Denavit-Hartenberg (DH) parameters to verify that the computed joint angles correctly map to the desired position.
+- **Inverse Kinematics**: Applies geometric approach to calculates the joint angles required for the robotic arm to reach a specific 3D position of the object. 
+- **Forward Kinematics**: Uses modified Denavit-Hartenberg (DH) parameters to verify that the computed joint angles correctly map to the desired 3D coordinates.
 
 ### **4.Serial Communication**
 - **Python-Arduino Communication**: The Python script sends joint angles data to the Arduino, which interprets the data and moves the servo motors accordingly. 
-- **Synchronization**: The Arduino updates the status after completing the servo motors movements. Communication is synchronized using a **handshaking system**, ensuring smooth data exchange
+- **Synchronization**: The Arduino updates the status after completing the servo motors movements. Communication is synchronized using a **handshaking system**, ensuring smooth data exchange.
 
 
