@@ -75,7 +75,7 @@ python main.py
 ## Future Improvements 
 - Incrementally adding degrees of freedom, up to six, will enable precise control of the end effector's orientation, thereby enhancing manipulation capabilities.
 - Using pretrained YOLO weights limits the range of detectable objects, and the performance of object detection varies depending on the lighting conditions. To address this, standardizing the lighting conditions and and collecting images of specific objects for manipulation will improve accuracy and provide more freedom of object choices. 
-- The robotic arm peforms repeated motion due to delayed responsiveness in the object detection algorithm. To mitigate this, I can utilize tiny YOLO weights, optimize input resolution, and implement asychronous processing.
+- The robotic arm peforms repeated motion due to delayed responsiveness in the object detection algorithm. To mitigate this, I can utilize tiny YOLO weights, implement asychronous processing, optimize input resolution, and process fewer frames by skipping detections. 
   
 ## Acknolwedgements
 - Numpy library for forward and inverse kinematics of robotic arm.
