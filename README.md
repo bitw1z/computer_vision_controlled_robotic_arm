@@ -4,10 +4,10 @@ This project enables a robotic arm to autonomously manipulate objects using ESP3
 
 ## Features
 - **Calculation of joint angles using inverse and forward kinematics**
-- Serial communication between Python and Arduino for data exchange 
-- Control of servo motors to move the robotic arm 
-- Calibration of the ESP32 camera for accurate 2D-to-3D coordinate conversion
-- Real-time object detection using pretrained YOLOv3 weights 
+- **Serial communication between Python and Arduino for data exchange** 
+- **Control of servo motors to move the robotic arm**
+- **Calibration of the ESP32 camera for accurate 2D-to-3D coordinate conversion**
+- **Real-time object detection using pretrained YOLOv3 weights**
   
 ## Hardware Setup
 - **ESP32 Camera**: Positioned in a bird's eye view to provide a real-time video stream for object detection. 
