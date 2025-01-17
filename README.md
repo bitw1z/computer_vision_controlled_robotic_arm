@@ -70,7 +70,7 @@ python main.py
 - Object detection through ESP32 camera
 - Precise 2D-to-3D coordinate conversion
 - [Watch the performance video on YouTube!](https://youtu.be/zEXQ5RJERkk?si=U1XYCbymmyTSmgoa)
-  
+- For more details, feel free to check out my [blog post!](https://bitwiz03.medium.com/turning-ideas-into-reality-project-completion-and-new-frontier-43c1b88f5ec7)!
 
 ## Future Improvements 
 
