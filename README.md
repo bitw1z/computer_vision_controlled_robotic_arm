@@ -1,6 +1,6 @@
 # computer_vision_controlled_robotic_arm
 ## Introduction
-This project enables a robotic arm to autonomously manipulate objects using ESP32 camera for real-time object detection and Arduino Uno for servo motor controls. 
+This project enables a 3-DoF robotic arm built by upcycled materials to autonomously manipulate objects using ESP32 camera for real-time object detection and Arduino Uno for servo motor controls. 
 
 ## Features
 - **Joint Angles Calculation**: Computes joint angles using forward and inverse kinematics. [Explore more](https://bitwiz03.medium.com/start-of-my-journey-into-computer-vision-controlled-3-dof-robotic-arm-3353c88c40bf).
